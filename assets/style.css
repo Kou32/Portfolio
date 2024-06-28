@@ -1,0 +1,62 @@
+*{
+ flex-wrap: wrap;
+ background-color: blanchedalmond;
+}
+section.header{
+    background-color: aqua;
+    font-size: 30px;
+    margin-top: -30px;
+}
+a:hover{
+    color: green;
+}
+
+ul {
+    text-align: right;
+    list-style: none;
+    margin-top: -35px;
+}
+ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+ul li:last-child{
+    padding-right: 10px;
+}
+article.about-Me{
+    font-size: 20px;
+    text-align: left;
+}
+main{
+    flex-direction: row;
+    text-align: right;
+    border: 1px solid black;
+    display: flex;
+
+}
+article{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img{max-width: 100%;}
+
+h3{
+    font-size: 35px;
+}
+section.project{
+    width: 450px;
+    border: 5px solid black;
+    padding: 0px;
+    margin: 5px;
+    font-size: larger;
+    text-align: center;
+    align-items: center;
+}
+ footer{
+    font-size: 30px;
+    text-wrap: wrap;
+}
