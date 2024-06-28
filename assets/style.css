@@ -1,4 +1,5 @@
 *{
+  /*made flex wrap global for the majority of the HTML, lessens repeat of code.*/  
  flex-wrap: wrap;
  background-color: blanchedalmond;
 }
@@ -20,7 +21,7 @@ ul li {
     display: inline-block;
     padding-left: 10px;
 }
-
+/* used ul li:last child from online to move the tabs to the right side of the header.*/
 ul li:last-child{
     padding-right: 10px;
 }
@@ -41,7 +42,7 @@ article{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
 }
-
+/* took this from online to help scale the image of Horiseon to fit in its corresponding box when flexing*/
 img{max-width: 100%;}
 
 h3{
